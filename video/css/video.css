@@ -1,0 +1,50 @@
+/*
+* @Author: Promise
+* @Date:   2017-09-19 13:36:55
+* @Last Modified by:   Promise
+* @Last Modified time: 2017-09-19 14:07:30
+*/
+html, body, div, h1,h2,h3,h4,h5,h6,video {
+	display: block;
+	margin: 0;
+	padding : 0;
+	color : #555;
+}
+#video {
+	width : 800px;
+	height : 600px;
+	margin : 100px auto;
+	border: 1px solid #ccc;
+}
+.title {
+	margin :5px;
+	text-align: center;
+}
+.container {
+	margin : 0 auto;
+}
+.controbar {
+	height : 20px;
+	background-color: #ccc;
+	position: relative;
+}
+.play {
+	margin-left: 15px;
+}
+.progressbar {
+	position: absolute;
+	top : 9px;
+	left : 50px;
+	width:650px;
+	height : 5px;
+	background-color: #555;
+}
+.time {
+	position: absolute;
+	width : 70px;
+	height:10px;
+	right : 10px;
+	top : 5px;
+	color : #eee;
+	background-color: #333;
+}
